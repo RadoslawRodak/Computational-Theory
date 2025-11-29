@@ -103,6 +103,11 @@ The main SHA-256 hash computation:
 - Integration of all previously implemented functions
 - Complete end-to-end SHA-256 hashing
 
+### Problem 5: Testing and Validation
+Comprehensive testing of the implementation:
+- Test cases from the official standard
+- Hash verification of known inputs
+- Performance analysis
 
 ## Technical Details
 
