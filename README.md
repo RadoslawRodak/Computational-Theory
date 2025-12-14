@@ -22,7 +22,6 @@ The primary goal of this project is to implement SHA-256 from scratch, providing
 ├── README.md                 # This file - project documentation
 ├── problems.ipynb           # Main Jupyter notebook with all solutions
 ├── problems.md              # Problem specifications
-├── requirements.txt         # Python package dependencies
 └── .gitignore              # Git ignore rules
 ```
 
