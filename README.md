@@ -125,5 +125,5 @@ print(hash_value)
 
 ## Development Notes
 
-This project was developed incrementally throughout the semester with regular commits showing the evolution of the implementation. Each problem was tackled step-by-step, with testing and verification at each stage.
+This project was developed incrementally throughout the semester with regular commits showing the evolution of the implementation. Each problem was tackled step-by-step, with testing and verification at each stage. 
 
