@@ -19,10 +19,9 @@ The primary goal of this project is to implement SHA-256 from scratch, providing
 
 ```
 .
-├── README.md                 # This file - project documentation
+├── README.md                 # This file - project 
+documentation
 ├── problems.ipynb           # Main Jupyter notebook with all solutions
-├── problems.md              # Problem specifications
-├── requirements.txt         # Python package dependencies
 └── .gitignore              # Git ignore rules
 ```
 
@@ -42,21 +41,6 @@ The primary goal of this project is to implement SHA-256 from scratch, providing
    cd <repository-name>
    ```
 
-2. **Create a virtual environment (recommended):**
-   ```bash
-   python -m venv venv
-   
-   # On Windows:
-   venv\Scripts\activate
-   
-   # On macOS/Linux:
-   source venv/bin/activate
-   ```
-
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ### Running the Notebook
 
@@ -116,13 +100,10 @@ Comprehensive testing of the implementation:
 - NumPy (for 32-bit unsigned integer operations)
 - Standard library modules only (no external crypto libraries)
 
-**Implementation Approach:**
-This implementation prioritizes clarity and adherence to the standard over performance. Each step is broken down and explained to demonstrate understanding of the algorithm.
 
 ## References
 
 - [FIPS PUB 180-4: Secure Hash Standard (SHS)](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf) - Official specification
-- [SHA-2 Wikipedia](https://en.wikipedia.org/wiki/SHA-2) - Background and context
 - Course materials and lecture notes
 
 ## How to Use
@@ -146,24 +127,3 @@ print(hash_value)
 
 This project was developed incrementally throughout the semester with regular commits showing the evolution of the implementation. Each problem was tackled step-by-step, with testing and verification at each stage.
 
-The commit history reflects:
-- Initial setup and structure
-- Implementation of binary operations
-- Constant generation and verification
-- Padding and parsing logic
-- Final hash function integration
-- Testing and documentation improvements
-
-## Assessment Compliance
-
-This repository meets the requirements specified in the module assessment guidelines:
-- Clear, organized structure with proper README
-- Reproducible Jupyter notebook with all solutions
-- Regular commits showing development progress
-- Proper documentation and code comments
-- PEP8 compliant Python code
-- All work is original and properly referenced
-
-## Contact
-
-For questions or feedback regarding this implementation, please contact through the course channels or open an issue in this repository.
