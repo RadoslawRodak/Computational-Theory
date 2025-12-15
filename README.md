@@ -19,8 +19,7 @@ The primary goal of this project is to implement SHA-256 from scratch, providing
 
 ```
 .
-├── README.md                 # This file - project 
-documentation
+├── README.md                 # This file - project documentation
 ├── problems.ipynb           # Main Jupyter notebook with all solutions
 └── .gitignore              # Git ignore rules
 ```
@@ -37,8 +36,8 @@ documentation
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd <repository-name>
+   git clone https://github.com/RadoslawRodak/Computational-Theory.git
+   cd Computational-Theory
    ```
 
 
@@ -87,11 +86,11 @@ The main SHA-256 hash computation:
 - Integration of all previously implemented functions
 - Complete end-to-end SHA-256 hashing
 
-### Problem 5: Testing and Validation
-Comprehensive testing of the implementation:
-- Test cases from the official standard
-- Hash verification of known inputs
-- Performance analysis
+### Problem 5: Password Cracking
+Password hash cracking demonstration:
+- Cracking hashed passwords using dictionary attacks
+- Successfully recovered 3/3 passwords
+- Security analysis and implications
 
 ## Technical Details
 
@@ -119,7 +118,7 @@ Example usage:
 ```python
 # After running all cells in the notebook
 message = b"Hello, World!"
-hash_value = sha256(message)
+hash_value = my_sha256(message)
 print(hash_value)
 ```
 
